@@ -15,10 +15,8 @@ void print(int i) {
 }
 
 void print(string s, int i) {
-    cout << "String: " << s << endl;
-    cout << "Integer: " << i << endl;
+     cout << "String: " << s << "     " << ",Integer: " << i << endl;
 }
-
 int main() {
     print("Hello");
     print(5);
